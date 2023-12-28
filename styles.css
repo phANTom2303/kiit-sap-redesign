@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 8fr 2fr;  
     background-color: white;  
-    border-bottom:7px black solid;
 }
 
 .header *{
@@ -45,6 +44,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     background-color: #92E2AE;
+    border-top: 7px black solid;
     border-bottom:7px black solid;
 }
 
