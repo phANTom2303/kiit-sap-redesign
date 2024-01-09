@@ -17,26 +17,20 @@ h1 {
     align-self: center;
     justify-content: center;
     font-family: sans-serif;
+    padding-left: 140px;
 }
 
 .sidemenu {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-}
-.navmenu {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto
-    
+    display: flex;
 }
 
 .header button{
-    padding: 8px;
+    padding: 5 px;
     text-align: left;
     border-radius: 7px;
     font-family: serif;
-    margin: 1px auto;
+    margin: 10px auto;
+    
 }
 
 .menu {
